@@ -7,12 +7,8 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  if word =~ /un{1,2}/
-    if word.scan(/\z+ing/)
-      return true
-    end
-  else
-    return false
+  if word =~ /un{1,2}/ && word =~ /ing{-3, -1}/
+    return true
   end
 end
 
