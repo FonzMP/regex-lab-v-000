@@ -38,7 +38,7 @@ end
 
 def valid_phone_number?(phone)
   phone_array = phone.scan(/\d/)
-  if phone_array[0].length = 3 && phone_array[1].length = 3 && phone_array[2].length = 4
+  if phone_array.length = 10
     return true
   else
     return false
