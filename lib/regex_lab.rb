@@ -29,11 +29,7 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  new_array = []
-  array = text.split(' ')
-  array.each do |x|
-    if x =~ /\A[A-Z]/ && x =~ /[.?!]\z/
-    end
+
 end
 
 def valid_phone_number?(phone)
