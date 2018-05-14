@@ -10,10 +10,8 @@ def words_starting_with_un_and_ending_with_ing(text)
   new_array = []
   array = text.split(' ')
   array.each do |x|
-    if x =~ /un{1,2}/
-      if x =~ /\zing/
-        new_array.push(x)
-      end
+    if x =~ /Aun/ && x =~ /ing\z/
+      new_array.push(x)
     end
 end
 
