@@ -21,7 +21,7 @@ def words_five_letters_long(text)
   array = text.split(' ')
   new_array = []
   array.each do |x|
-    if x =~ /[a-zA-Z]{5}/
+    if x =~ /[a-zA-Z]{5}$/
       new_array.push(x)
     end
   end
