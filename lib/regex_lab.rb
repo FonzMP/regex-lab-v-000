@@ -8,7 +8,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   array = []
-  if word =~ /un{1,2}/ && word =~ /ing{-3, -1}/
+  if test =~ /un{1,2}/ && word =~ /ing{-3, -1}/
     array.push(word)
   end
 end
