@@ -26,7 +26,6 @@ def words_five_letters_long(text)
     end
   end
   return new_array
-
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
