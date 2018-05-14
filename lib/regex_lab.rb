@@ -40,7 +40,7 @@ def valid_phone_number?(phone)
   phone_list = phone.scan(/\d/)
   phone_item = phone_list.length.to_i
   puts phone_item
-  if phone_item = 10
+  if phone_item == 10
     return true
   else
     return false
