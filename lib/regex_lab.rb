@@ -7,11 +7,14 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
+  new_array = []
   array = text.split(' ')
   array.each do |x|
     if x =~ /\Aun/
       if x =~ /\zing/
         new_array.push(x)
+      end
+    end
 end
 
 def words_five_letters_long(text)
