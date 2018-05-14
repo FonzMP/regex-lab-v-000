@@ -38,6 +38,7 @@ end
 
 def valid_phone_number?(phone)
   phone_list = phone.scan(/\d/)
+  test = phone_list.length
   if phone_list.length = 10
     return true
   else
