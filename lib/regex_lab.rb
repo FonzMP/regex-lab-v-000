@@ -37,8 +37,8 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  phone_array = phone.scan(/\d/).join('')
-  if phone_array.length = 10
+  phone_list = phone.scan(/\d/).join('')
+  if phone_list.length = 10
     return true
   else
     return false
