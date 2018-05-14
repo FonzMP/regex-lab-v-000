@@ -8,7 +8,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   if word =~ /\A+un/
-    if word =~ /\zing/
+    if word =~ /\z+ing/
       return true
     end
   else
