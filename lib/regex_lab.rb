@@ -38,7 +38,7 @@ end
 
 def valid_phone_number?(phone)
   phone_list = phone.scan(/\d/)
-  phone_item.to_i = phone_list.length
+  phone_item.to_i = phone_list.length.to_i
   if phone_item = 10
     return true
   else
